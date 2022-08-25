@@ -1,0 +1,378 @@
+@import url(/general/styles.css);
+
+body {
+  margin: 0px;
+}
+
+.home {
+    color: white;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 70px;
+  padding-left: 10%;
+  gap: 30px;
+}
+
+.hero h1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+
+.hero div {
+  width: 550px;
+  text-align: center;
+}
+
+.hero h1 span {
+  font-family: inter;
+  color: #7e9cf1;
+}
+
+.hero p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+.hero img {
+  display: none;
+  width: 50%;
+}
+
+.hero button {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.46px;
+  padding: 15px 40px;
+  gap: 10px;
+  width: 185px;
+  height: 55px;
+  color: white;
+  background: #3563e9;
+  border: none;
+}
+
+@media screen and (min-width: 1000px) {
+  /* laptop screen */
+  .hero img {
+    display: block;
+  }
+
+  .hero div {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* mobile screen */
+  .hero h1 {
+    font-size: 40px;
+  }
+  .hero div {
+    text-align: left;
+    width: 358px;
+  }
+}
+
+.why-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 8%;
+}
+
+.head {
+  text-align: center;
+  width: 100%;
+}
+
+.head h1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+}
+
+.head p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #666666;
+}
+
+.content {
+  width: 100%;
+}
+
+.cont-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px 0px;
+  row-gap: 20px;
+  column-gap: 50px;
+}
+
+.text {
+  width: 382px;
+}
+
+.text h1 {
+  margin: 0px;
+  margin-bottom: 25px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.text p {
+  margin: 0px;
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #666666;
+}
+
+.cont-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px 0px;
+  row-gap: 20px;
+  column-gap: 50px;
+}
+
+.cta-1 {
+  background-color: #3563e9;
+  display: flex;
+  color: white;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 60px 6%;
+  gap: 50px;
+  margin: 0% 5%;
+  border: none;
+  border-radius: 15px;
+}
+
+.cta-1 > img {
+  width: 50%;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 383px;
+}
+
+.input p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: white;
+  opacity: 0.7;
+}
+
+.text-2 {
+  width: 383px;
+  margin-bottom: 30px;
+}
+
+.text-2 h1 {
+  font-family: manrope, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+
+.text-2 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+.input input {
+  box-sizing: border-box;
+  padding: 10px 45px;
+  gap: 10px;
+  width: 100%;
+  height: 44px;
+  background: #ffffff;
+  border-radius: 5px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #666666;
+}
+
+.input button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 0 22px;
+  gap: 10px;
+  height: 40px;
+  background: black;
+  border-radius: 5px;
+  border: none;
+  height: 44px;
+}
+
+.input > div {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.input img {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.clients {
+  margin: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-2 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 30px;
+  box-sizing: border-box;
+  column-gap: 20px;
+}
+
+.comments {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  column-gap: 40px;
+}
+.comment {
+  /* width: 414px; */
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.comment p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size:16px;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+  text-transform: capitalize;
+  margin: 25px 0px ;
+  color: #424242;
+}
+
+
+.comment > div p {
+    font-size: 14px;
+    margin: 0px;
+}
+
+@media screen and (max-width: 450px) {
+  .content img {
+    width: 100%;
+  }
+  .cta-1 {
+    margin: 0px;
+    border-radius: 0px;
+  }
+  .text-2,
+  .input {
+    width: 100%;
+  }
+  
+
+}
+
+@media screen and (max-width: 1121px) {
+  .cta-1 > img {
+    display: none;
+  }
+  .input div {
+    flex-wrap: wrap;
+  }
+  
+}
+
+@media screen and (min-width: 1000px) {
+    .comment {
+        width: 414px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+    .com-1 {
+        display: none;
+    }
+}
